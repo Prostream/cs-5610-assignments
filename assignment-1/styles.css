@@ -1,0 +1,106 @@
+.gallery-row {
+  margin-bottom: 20px;
+}
+
+.demo-area {
+  display: inline-block;
+  min-width: 110px;
+  min-height: 80px;
+  margin-right: 15px;
+  vertical-align: top;
+  background-color: lightgray;
+}
+
+.demo-box {
+  width: 70px;
+  min-height: 40px;
+  background-color: lightblue;
+}
+
+.border-0 {
+  border: 0 solid blue;
+}
+
+.border-5 {
+  border: 5px solid blue;
+}
+
+.border-10 {
+  border: 10px solid blue;
+}
+
+.margin-box,
+.padding-box {
+  border: 2px solid blue;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.margin-5 {
+  margin: 5px;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.padding-0 {
+  padding: 0;
+}
+
+.padding-5 {
+  padding: 5px;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+body {
+  padding-bottom: 60px;
+}
+
+.ad-card {
+  position: fixed;
+  right: 20px;
+  bottom: 70px;
+  width: 220px;
+  padding: 15px;
+  border: 3px solid orange;
+  background-color: lightyellow;
+}
+
+.ad-badge {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 3px;
+  background-color: orange;
+  color: white;
+}
+
+.ad-title {
+  position: relative;
+  left: 5px;
+}
+
+.ad-message {
+  position: static;
+}
+
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background-color: navy;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}

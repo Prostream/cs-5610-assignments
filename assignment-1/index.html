@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A CS 5610 practice page.">
+    <title>HTML + CSS + JavaScript self assessment</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#structure">Structure</a></li>
+          <li><a href="#elements">HTML Tags</a></li>
+          <li><a href="#seo">SEO</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>HTML + CSS + JavaScript self assessment</h1>
+
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          I made this page to practice basic HTML and CSS.
+        </p>
+      </section>
+
+      <section id="structure">
+        <h2>Basic Structure</h2>
+        <p>
+          This page has a navigation bar, several sections, and a footer.
+        </p>
+      </section>
+
+      <section id="elements">
+        <h2>A list of the 10 most useful tags</h2>
+        <ol>
+          <li>&lt;header&gt;: the top part of a page</li>
+          <li>&lt;nav&gt;: a group of navigation links</li>
+          <li>&lt;main&gt;: the main content of a page</li>
+          <li>&lt;section&gt;: a section of related content</li>
+          <li>&lt;h1&gt;: the main heading</li>
+          <li>&lt;h2&gt;: a smaller heading</li>
+          <li>&lt;p&gt;: a paragraph</li>
+          <li>&lt;ul&gt;: an unordered list</li>
+          <li>&lt;li&gt;: an item in a list</li>
+          <li>&lt;footer&gt;: the bottom part of a page</li>
+        </ol>
+      </section>
+
+      <section id="seo">
+        <h2>SEO</h2>
+        <p>
+          SEO means Search Engine Optimization. It helps search engines
+          understand the page.
+        </p>
+        <p>
+          The &lt;head&gt; stores page information. The &lt;header&gt; is visible
+          on the page.
+        </p>
+        <p>Useful SEO tags include:</p>
+        <ul>
+          <li>&lt;title&gt;: the page title</li>
+          <li>&lt;meta name="description"&gt;: a short page summary</li>
+          <li>&lt;h1&gt; to &lt;h6&gt;: the heading order</li>
+          <li>&lt;link rel="canonical"&gt;: the main URL for the page</li>
+          <li>&lt;meta name="robots"&gt;: tells search engines how to handle the page</li>
+        </ul>
+        <p>
+          I did not add meta keywords because Google does not use them.
+        </p>
+      </section>
+
+      <section id="grid">
+        <h2>3 x 3 Layout</h2>
+        <div>
+          <div>
+            <span>cell 1</span>
+            <span>cell 2</span>
+            <span>cell 3</span>
+          </div>
+          <div>
+            <span>cell 4</span>
+            <span>cell 5</span>
+            <span>cell 6</span>
+          </div>
+          <div>
+            <span>cell 7</span>
+            <span>cell 8</span>
+            <span>cell 9</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="box-model">
+        <h2>Box Model</h2>
+        <p>The order is content, padding, border, and margin.</p>
+
+        <div class="box-model-gallery">
+          <div class="gallery-row">
+            <h3>Border</h3>
+            <div class="demo-area"><div class="demo-box border-0">0px</div></div>
+            <div class="demo-area"><div class="demo-box border-5">5px</div></div>
+            <div class="demo-area"><div class="demo-box border-10">10px</div></div>
+          </div>
+
+          <div class="gallery-row">
+            <h3>Margin</h3>
+            <div class="demo-area"><div class="demo-box margin-box margin-0">0px</div></div>
+            <div class="demo-area"><div class="demo-box margin-box margin-5">5px</div></div>
+            <div class="demo-area"><div class="demo-box margin-box margin-10">10px</div></div>
+          </div>
+
+          <div class="gallery-row">
+            <h3>Padding</h3>
+            <div class="demo-area"><div class="demo-box padding-box padding-0">0px</div></div>
+            <div class="demo-area"><div class="demo-box padding-box padding-5">5px</div></div>
+            <div class="demo-area"><div class="demo-box padding-box padding-10">10px</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="font-sizes">
+        <h2>Font Size Units</h2>
+        <ul>
+          <li>
+            <span style="font-size: 12px;">Font size example</span>
+            — I would use px for a small label.
+          </li>
+          <li>
+            <span style="font-size: 18pt;">Font size example</span>
+            — I would use pt for printed text.
+          </li>
+          <li>
+            <span style="font-size: 0.9em;">Font size example</span>
+            — I would use em when the size should follow its parent.
+          </li>
+          <li>
+            <span style="font-size: 1.25rem;">Font size example</span>
+            — I would use rem for headings across the page.
+          </li>
+          <li>
+            <span style="font-size: 140%;">Font size example</span>
+            — I would use a percentage to compare with the parent size.
+          </li>
+          <li>
+            <span style="font-size: 2.5vw;">Font size example</span>
+            — I would use vw for text that changes with the window width.
+          </li>
+        </ul>
+      </section>
+
+      <section id="positioning">
+        <h2>Positioning Example</h2>
+        <p>I used a small ad-style box to test four position values.</p>
+
+        <div class="ad-card">
+          <span class="ad-badge">DEMO AD</span>
+          <h3 class="ad-title">CSS Tip</h3>
+          <p class="ad-message">Using a ad box as a creative part.</p>
+        </div>
+
+        <ul>
+          <li>Static: the message stays in the normal layout.</li>
+          <li>Relative: the title moves a little from its normal spot.</li>
+          <li>Absolute: the label stays in the card's top-right corner.</li>
+          <li>Fixed: the card stays in the bottom-right corner of the screen.</li>
+        </ul>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>HTML + CSS + JavaScript self assessment</p>
+    </footer>
+  </body>
+</html>
